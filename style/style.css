@@ -1,0 +1,157 @@
+:root {
+    --bg: #f5f7fa;
+    --card: #ffffff;
+    --primary: #4b65da;
+    --second: #4bda52;
+    --accent: #4dd184;
+    --muted: #6b7280;
+    --danger: #e53e3e;
+    --radius: 8px;
+    --max-width: 560px;
+    --gap: 12px;
+    --pad: 18px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+    background: linear-gradient(180deg, #eef2f7 0%, var(--bg) 100%);
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+    text-align: center;
+    padding: 28px 16px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 1.4rem;
+    letter-spacing: 0.4px;
+    color: var(--primary);
+}
+
+/* Main panel */
+main.panel {
+    max-width: var(--max-width);
+    margin: 18px auto;
+    background: var(--card);
+    border-radius: var(--radius);
+    padding: calc(var(--pad) + 6px);
+    box-shadow: 0 6px 20px rgba(16, 24, 40, 0.06);
+    display: grid;
+    gap: var(--gap);
+}
+
+/* helper text */
+.dica-destaque {
+    margin: 0;
+    padding: 8px 12px;
+    background: linear-gradient(90deg, #fff7ed 0%, #fffaf0 100%);
+    border-radius: 6px;
+    text-align: center;
+    color: #92400e;
+    font-weight: 600;
+    font-size: 0.95rem;
+}
+
+/* form rows */
+label {
+    display: block;
+    margin-top: 6px;
+    margin-bottom: 4px;
+    color: var(--muted);
+    font-size: 0.92rem;
+}
+
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #e6e9ef;
+    border-radius: 8px;
+    background: #fff;
+    font-size: 1rem;
+    color: #111827;
+    outline: none;
+    transition: box-shadow .12s ease, border-color .12s ease;
+}
+
+input[type="number"]::placeholder {
+    color: #9ca3af;
+}
+
+input[type="number"]:focus,
+select:focus {
+    border-color: rgba(43, 108, 176, 0.9);
+    box-shadow: 0 6px 18px rgba(43, 108, 176, 0.08);
+}
+
+/* button */
+#gerar-dica-btn {
+    margin-top: 6px;
+    padding: 10px 14px;
+    background: var(--second);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: transform .06s ease, box-shadow .08s ease;
+}
+
+#gerar-dica-btn:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 8px 20px rgba(43, 108, 176, 0.14);
+    background: var(--primary);
+}
+
+/* Caixa de resultado */
+#resultado {
+    margin-top: 8px;
+    padding: 14px;
+    min-height: 64px;
+    background: linear-gradient(180deg, #ffffff 0%, #d1d2d3 100%);
+    border: 1px solid rgba(15, 23, 42, 0.06);
+    border-left: 4px solid var(--primary);
+    border-radius: 8px;
+    box-shadow: 0 6px 18px rgba(2, 6, 23, 0.04);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 1rem;
+    white-space: pre-wrap;
+}
+
+/* footer */
+footer {
+    text-align: center;
+    padding: 18px 12px;
+    color: #94a3b8;
+    font-size: 0.82rem;
+}
+
+/* responsividade */
+@media (max-width: 420px) {
+    main.panel {
+        margin: 12px;
+        padding: 14px;
+    }
+
+    header h1 {
+        font-size: 1.2rem;
+    }
+
+    #resultado {
+        font-size: 0.95rem;
+        min-height: 56px;
+    }
+}

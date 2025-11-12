@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>descontao</title>
+    <link rel="stylesheet" href="./style/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>calculadora-descontos</h1>
+    </header>
+
+    <main class="panel">
+        <p id="dica-display" class="dica-destaque">
+            preencha com o valor do produto
+        </p>
+            <label for="valor">Valor:</label>
+            <input type="number" id="valor" name="valor" step="0.01" placeholder="R$ 0,00">
+
+    
+        <label for="tipo_pagamento">Selecione o tipo de pagamento:</label>
+        <select id="tipo_pagamento">
+            <option value="">-- Selecione uma opção --</option>
+            <option value="cartao_credito">Cartão de Crédito (acréscimo de 5%)</option>
+            <option value="dinheiro">Dinheiro (10% de desconto)</option>
+            <option value="parcelado2x">Parcelado 2x (sem acréscimo)</option>
+            <option value="parcelado3x">Parcelado 3x (acréscimo de 10%)</option>
+            <option value="masde3x">Mais de 3x (acréscimo de 10%)</option>
+        </select>
+        <button id="gerar-dica-btn">
+            Gerar calculo
+        </button>
+        <div id="resultado">Resultado</div>
+    </main>
+
+    <footer>
+        <p>&copy;Criado por Pedro henrique lopes cavalcanti - Todos os direitos resservados 2025</p>
+    </footer>
+
+    <script src="./script/script.js"></script>
+</body>
+
+</html>
