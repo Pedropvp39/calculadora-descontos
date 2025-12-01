@@ -16,7 +16,7 @@ Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar 
 * Modo Escuro
 * Monitoramento
 * Conectar a um servidor
-* Aumentar a pagina
+* Armazenamento das ações anteriores
 * deixa-la mais completa
 # Aprendizagem 
 
