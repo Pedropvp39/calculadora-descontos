@@ -26,7 +26,7 @@ Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar 
 * Armazenamento das ações anteriores
 * deixa-la mais completa
 # Aprendizagem 
-
+Na criação desta pagina foo possivel aprender novos modos de css como organizar melhor os itens da pagina e como fazer varias tags diferentes.
 # como clonar Repositorio
 ## 🧑‍💻 Passo a Passo
 Para obter uma cópia completa do código e do histórico da pagina, use o seguinte comando no seu Terminal:
