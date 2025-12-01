@@ -1,5 +1,5 @@
-# 🍴calculadora-de-preços
-Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar valores pré-definidos,calcular os valores e então dar o valor final para calcular as metes pré-Definidas.Feito com o intuito de mostrar a um profissinal da instituição do Senac-DF.O objetivo e praticar HTML,CSS,JavaScript e manipulação de DOM.
+# 📊 Calculadora-Descontos
+Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar valores pré-definidos,calcular os valores e então dar o valor final para calcular o valor do desconto de acordo com os campos preenchidos e pré-Definidas.Feito com o intuito de mostrar a um profissinal da instituição do Senac-DF.O objetivo e praticar HTML,CSS,JavaScript e manipulação de DOM.
 # Tecnologias utilizadas
 * **HTML**
 * **CSS**
