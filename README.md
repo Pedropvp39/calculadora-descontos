@@ -34,4 +34,4 @@ Para obter uma cópia completa do código e do histórico da pagina, use o segui
 | **Turno** | Matutino |
 | **GitHub** | [@Pedropvp39](https://github.com/Pedropvp39) |
 ## Link caso ele ainda esteja hospedado "temporariamente".
-
+https://pedropvp39.github.io/calculadora-descontos/
