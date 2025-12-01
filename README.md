@@ -11,7 +11,14 @@ Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar 
 * Após isso extraia a pasta onde desejar *
 * Procure na pasta "index.html" e então click nele duas vezes e ele abrirá em seu navegador *
 # Lista de Funcionalidades
-
+* 💰 **Cálculo de Preço Final:** Processa e exibe o **valor final** do produto após a aplicação de descontos ou acréscimos.
+* 💳 **Regras de Pagamento:** Aplicação automática de acréscimos e descontos com base na forma de pagamento:
+    * **10% de Desconto** para pagamento em Dinheiro.
+    * **5% de Acréscimo** para pagamento em Cartão de Crédito.
+    * **10% de Acréscimo** para Parcelamento em 3x ou mais.
+    * **Sem Acréscimo** para Parcelamento em 2x.
+* ⌨️ **Entrada de Dados:** Campo de input para que o usuário informe o **valor inicial do produto**.
+* ⚙️ **Geração de Cálculo:** Botão dedicado para processar o cálculo e exibir o **Resultado** na tela.
 # Melhorias Futuras 
 * Modo Escuro
 * Monitoramento
