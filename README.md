@@ -1,10 +1,11 @@
 # 📊 Calculadora-Descontos
-Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar valores pré-definidos,calcular os valores e então dar o valor final para calcular o valor do desconto de acordo com os campos preenchidos e pré-Definidas.Feito com o intuito de mostrar a um profissinal da instituição do Senac-DF.O objetivo e praticar HTML,CSS,JavaScript e manipulação de DOM.
+Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar valores pré-definidos,calcular os valores e então dar o valor final para calcular o valor do desconto de acordo com os campos preenchidos que são pré-Definidas.Feito com o intuito de mostrar a um profissinal da instituição do Senac-DF.O objetivo e praticar HTML,CSS,JavaScript e manipulação de DOM.
 # Tecnologias utilizadas
 * **HTML**
 * **CSS**
 * **JavaScript**
 * **Git e GitHub**
+* **VS Code**
 # como Instalar
 ## ⚙️ Pré-requisitos
 * Click em "Code" e então em Download.Zip *
@@ -24,9 +25,9 @@ Projeto criado com o intuito de fazer calculos pré-definidos.Permite registrar 
 * Monitoramento
 * Conectar a um servidor
 * Armazenamento das ações anteriores
-* deixa-la mais completa
+* Aumentar as quantidadesd dos valores e opções 
 # Aprendizagem 
-Na criação desta pagina foo possivel aprender novos modos de css como organizar melhor os itens da pagina e como fazer varias tags diferentes.
+Na criação desta pagina foi possivel aprender novos modos de CSS como organizar melhor os itens da pagina e como fazer varias tags diferentes.
 # como clonar Repositorio
 ## 🧑‍💻 Passo a Passo
 Para obter uma cópia completa do código e do histórico da pagina, use o seguinte comando no seu Terminal:
@@ -39,6 +40,7 @@ Para obter uma cópia completa do código e do histórico da pagina, use o segui
 | :--- | :--- |
 | **Autor** | Pedro Henrique.L.Cavalvanti |
 | **Turno** | Matutino |
+||Turma de tecnologia em Informatica para Internet|
 | **GitHub** | [@Pedropvp39](https://github.com/Pedropvp39) |
 ## Link caso ele ainda esteja hospedado "temporariamente".
 https://pedropvp39.github.io/calculadora-descontos/
