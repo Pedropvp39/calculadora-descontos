@@ -32,7 +32,7 @@ Na criação desta pagina foi possivel aprender novos modos de CSS como organiza
 ## 🧑‍💻 Passo a Passo
 Para obter uma cópia completa do código e do histórico da pagina, use o seguinte comando no seu Terminal:
 * Copie a URL HTTPS do repositório
-* "git clone https://github.com/SeuUsuario/nome-do-site.git"
+* "[git clone https://github.com/SeuUsuario/nome-do-site.git](https://github.com/Pedropvp39/calculadora-descontos.git)"
 * Acesse a pasta do projeto
 * "cd easyfinance-app"
 # Autor
